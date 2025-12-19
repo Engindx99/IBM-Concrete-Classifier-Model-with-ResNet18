@@ -177,18 +177,6 @@ To assess the effectiveness of the binary classification model, the following me
 
 Accuracy is chosen as the primary metric due to the balanced nature of the dataset, while the confusion matrix offers deeper insight into the types of classification errors made by the model.
 
-### Test Results
-
-The final model was evaluated on a held-out test set that was not used during training or validation:
-
-- **Test Accuracy** : 99.92%
-- **Test Precision**: 99.97%
-- **Test Recall**   : 99.87%
-- **Test F1-score** : 99.92%
-
-These results indicate excellent generalization performance on unseen data. The high scores are primarily attributed to the cleanliness of the dataset and the clear visual separability between crack and non-crack samples, rather than excessive model complexity.
-
-
 ### Training Curves
 
 The following figure shows the training loss and validation accuracy over 3 epochs:
