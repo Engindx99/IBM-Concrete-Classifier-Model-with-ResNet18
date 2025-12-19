@@ -193,7 +193,7 @@ These results indicate excellent generalization performance on unseen data. The 
 
 The following figure shows the training loss and validation accuracy over 3 epochs:
 
-![Training Loss and Validation Accuracy](images/training_plot.png)
+![Training Plot](training_plot.png)
 
 
 ### Classification Performance
